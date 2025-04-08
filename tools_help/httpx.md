@@ -1,6 +1,10 @@
 # httpx
 
-```shell
+https://docs.projectdiscovery.io/tools/httpx/running
+
+https://www.hackingarticles.in/a-detailed-guide-on-httpx/
+
+```
 Usage:
   ./httpx [flags]
 
