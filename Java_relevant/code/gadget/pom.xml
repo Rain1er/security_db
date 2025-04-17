@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>CC_chains</module>
+        <module>CB_chains</module>
     </modules>
 
     <properties>
