@@ -1,0 +1,5 @@
+com/rain/config/ShiroConfig.class
+com/rain/controller/LoginController.class
+com/rain/realm/MyRealm.class
+com/rain/controller/BypassTestController.class
+com/rain/Application.class
