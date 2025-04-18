@@ -5,7 +5,9 @@
 
   <modelVersion>4.0.0</modelVersion>
 
+  <groupId>com.rain</groupId>
   <artifactId>shiro</artifactId>
+  <version>1.0</version>
   <packaging>pom</packaging>
   <modules>
     <module>auth-bypass-shiro-1-5-3</module>
