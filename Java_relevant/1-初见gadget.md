@@ -1,5 +1,7 @@
 # Java安全研究之各种gadget
 
+
+
 ## 1. Commons-Collections链
 
 > Apache Commons Collections 是一个广泛使用的 Java 库，提供了丰富的集合框架扩展和实用工具。然而，它也因其在 Java 反序列化攻击中的广泛应用而受到关注。Commons Collections 库中的某些类可以被恶意利用，导致任意代码执行。
@@ -10,7 +12,7 @@
 
 首先解压 `/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home`下面的`src.zip` 
 
-之后下载openjdk并解压，将`src\share\classes\sun`目录复制到上面解压出的`src`目录内 
+之后下载OpenJDK并解压，将`src\share\classes\sun`目录复制到上面解压出的`src`目录
 
 最后在SDKs中添加sourcepath就好了.
 
