@@ -4,6 +4,8 @@
 
 ## 1. jndi注入
 
+示例代码见
+
 ### 1.1 背景知识
 
 > The **Java Naming and Directory Interface** (**JNDI**) is a Java [API](https://en.wikipedia.org/wiki/Application_programming_interface) for a [directory service](https://en.wikipedia.org/wiki/Directory_service) that allows Java software clients to discover and look up data and resources (in the form of Java [objects](https://en.wikipedia.org/wiki/Object_(computer_science))) via a name. Like all [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) APIs that interface with host systems, JNDI is independent of the underlying implementation.
@@ -64,7 +66,7 @@ initialContext.lookup("dns://c17208f0.log.cdncache.rr.nu.");    // 关闭clash�
 
 
 
-具体示例代码见
+
 
 ## 1.3 原理分析 & 高版本的绕过
 
