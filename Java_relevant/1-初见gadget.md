@@ -2,6 +2,10 @@
 
 **初见 —— 「樱花落下的第一眼」**
 
+---
+
+示例代码见 https://github.com/Rain1er/security_db/tree/main/Java_relevant/code/gadget
+
 ## 1. Commons-Collections链
 
 > Apache Commons Collections 是一个广泛使用的 Java 库，提供了丰富的集合框架扩展和实用工具。然而，它也因其在 Java 反序列化攻击中的广泛应用而受到关注。Commons Collections 库中的某些类可以被恶意利用，导致任意代码执行。
