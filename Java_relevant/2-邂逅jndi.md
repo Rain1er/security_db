@@ -1,10 +1,10 @@
-# 2-邂逅各种注入
-
 **邂逅 —— 「雨伞倾斜的第二次偶然」**
 
-## 1. jndi注入
+---
 
 示例代码见 https://github.com/Rain1er/security_db/tree/main/Java_relevant/code/jndi
+
+## 1. jndi注入
 
 ### 1.1 背景知识
 

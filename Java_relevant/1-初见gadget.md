@@ -1,5 +1,3 @@
-# Java安全研究之各种gadget
-
 **初见 —— 「樱花落下的第一眼」**
 
 ---
@@ -66,6 +64,8 @@ CC1 有两条，大同小异。
 
 Java 反序列化当中，CC6 链被称为是最好用的 CC 链，它可以不受 JDK、CC的版本约束进行反序列化攻击。
 
+
+
 ### 1.3 CC3
 
 > 前面的CC1与CC6链都是通过 Runtime.exec() 进行命令执行的。Runtime关键字位于黑名单的时候就不能使用了。 CC3链的好处是通过动态加载类的机制实现恶意类代码执行。
@@ -96,15 +96,11 @@ CC：Commons-Collections 4.0
 </dependencies>
 ```
 
-
-
 ### 1.5 CC5
 
 > CC5链和CC1差不多，只不过调用LazyMap.get()是通过 TiedMapEntry.toString()触发的
 
-JDK：jdk8u65
 
-CC：Commons-Collections 3.2.1
 
 ### 1.6 CC2
 
@@ -148,7 +144,7 @@ CC：Commons-Collections 3.2.1
 
 > Apache Commons 工具集下除了`collections`以外还有`BeanUtils`，它主要用于操控`JavaBean`。
 >
-> 以 Utils 结尾，指示这是一个工具类/集.
+> 像BeanUtils这样以 Utils 结尾的命名，指示这是一个工具类/集.
 
 
 
