@@ -1,4 +1,21 @@
-.DS_Store
-.idea
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
 *.iml
-target
+*.ipr
+
+### target ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

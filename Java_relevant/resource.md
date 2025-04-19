@@ -12,7 +12,7 @@ https://github.com/HackJava/HackJava
 
 https://github.com/Whoopsunix/JavaRce
 
-* Utf OverLoad Encoding
+* Utf OverLoad Encoding 对抗waf
 
 https://github.com/byname66/SerializeJava	
 
