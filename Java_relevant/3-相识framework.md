@@ -18,6 +18,6 @@
 
 示例代码 https://github.com/Rain1er/security_db/tree/main/Java_relevant/code/Shiro
 
-参考文献
+参考文档
 
 https://github.com/Firebasky/Java/tree/main/Shiro/Shiro%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87
