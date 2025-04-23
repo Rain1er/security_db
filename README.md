@@ -78,6 +78,10 @@ https://www.cnblogs.com/macter/p/16181588.html
 
  **.net安全矩阵知识星球**
 
+https://github.com/Ivan1ee/NET-Deserialize?tab=readme-ov-file
+
+https://github.com/Y4er/dotnet-deserialization
+
 https://github.com/dotnet/docs
 
 https://github.com/guardrailsio/awesome-dotnet-security
