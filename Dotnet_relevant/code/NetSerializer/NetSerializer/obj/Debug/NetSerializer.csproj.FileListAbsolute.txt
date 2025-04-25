@@ -1,0 +1,7 @@
+D:\DotNet\NetSerializer\NetSerializer\bin\Debug\NetSerializer.exe.config
+D:\DotNet\NetSerializer\NetSerializer\bin\Debug\NetSerializer.exe
+D:\DotNet\NetSerializer\NetSerializer\bin\Debug\NetSerializer.pdb
+D:\DotNet\NetSerializer\NetSerializer\obj\Debug\NetSerializer.csproj.AssemblyReference.cache
+D:\DotNet\NetSerializer\NetSerializer\obj\Debug\NetSerializer.csproj.CoreCompileInputs.cache
+D:\DotNet\NetSerializer\NetSerializer\obj\Debug\NetSerializer.exe
+D:\DotNet\NetSerializer\NetSerializer\obj\Debug\NetSerializer.pdb
