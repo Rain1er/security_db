@@ -48,6 +48,10 @@ https://github.com/aqiao-jashell/go-bypass
 
 易语言: )  感觉也挺好玩的， 写外挂必备技能，开发gui效率高。
 
+### MCP & A2A 开发
+
+利用ai做一些有意思的事情。
+
 
 
 ## 1. 业务侧安全
