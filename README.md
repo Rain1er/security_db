@@ -50,9 +50,9 @@ https://github.com/aqiao-jashell/go-bypass
 
 
 
-## 1. 后端
+## 1. 业务侧安全
 
-准备重新分类了，从Web后端、前端技术栈出发，语言层面相关漏洞感觉并不重要，我有点讨厌反序列化。PHP还简单点，Java天天这链子那链子的……有啥意思。
+语言层面相关漏洞感觉有时并不重要，我有点讨厌反序列化。PHP还简单点，Java天天这链子那链子的……有啥意思。
 
 业务安全才是我主要的研究方向。
 
@@ -65,32 +65,6 @@ https://www.javasec.org/
 https://github.com/HackJava/HackJava
 
 https://github.com/guardrailsio/awesome-java-security
-
-
-
-攻防对抗
-
-* RCE相关
-
-https://github.com/Whoopsunix/JavaRce
-
-* Utf OverLoad Encoding 对抗waf
-
-https://github.com/byname66/SerializeJava	
-
-* 内存马
-
-https://github.com/Getshell/Mshell	
-
-https://github.com/veo/wsMemShell 
-
-https://github.com/pen4uin/java-memshell-generator
-
-https://github.com/ReaJason/MemShellParty
-
-https://github.com/W01fh4cker/LearnJavaMemshellFromZero
-
-https://github.com/jweny/MemShellDemo
 
 
 
@@ -198,8 +172,6 @@ https://go.dev/wiki/ResearchPapers
 
 
 
-
-
 ## 2. 前端 & NodeJs & Electron
 
 客户端漏洞挖掘我认为还是很有前景的，研究的人不多，后面仔细研究下xss2RCE。**有大用处：）**
@@ -220,7 +192,29 @@ https://github.com/Just-Hack-For-Fun/Electron-Security
 
 这里主要是记录一些实战相关的知识，学习一些blueTeam的知识。弄一些蜜罐来玩一下。
 
+Java的一些东西
 
+* RCE相关
+
+https://github.com/Whoopsunix/JavaRce
+
+* Utf OverLoad Encoding 对抗waf
+
+https://github.com/byname66/SerializeJava	
+
+* 内存马
+
+https://github.com/Getshell/Mshell	
+
+https://github.com/veo/wsMemShell 
+
+https://github.com/pen4uin/java-memshell-generator
+
+https://github.com/ReaJason/MemShellParty
+
+https://github.com/W01fh4cker/LearnJavaMemshellFromZero
+
+https://github.com/jweny/MemShellDemo
 
 ## 5. 逆向工程 & IOT
 
