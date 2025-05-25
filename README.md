@@ -188,7 +188,7 @@ https://github.com/Just-Hack-For-Fun/Electron-Security
 
 ## 3. 移动端
 
-语言主要是kotlin，涉及的方向有api安全，android逆向工程等
+语言主要是`kotlin`，`Objective-C`，`swift`等。涉及的方向有api安全，逆向工程等
 
 
 
