@@ -228,11 +228,23 @@ https://github.com/jweny/MemShellDemo
 
 固件相关知识、fuzz、蓝牙、车联网……
 
+* 静态反编译
+
+https://hex-rays.com/ida-pro  
+
+https://www.hopperapp.com/  
+
+https://github.com/NationalSecurityAgency/ghidra  
+
+https://github.com/rizinorg/cutter  
+
 
 
 ## 6. 区块链
 
 还是很想学一学区块链的，背后的原理，安全漏洞审计，各种钓鱼玩法，自动交易机器人等。
+
+https://github.com/AmazingAng/WTF-Solidity  
 
 
 
